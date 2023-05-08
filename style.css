@@ -33,3 +33,68 @@ h1 {
     line-height: 1;
     font-weight: 800;
 }
+
+
+/*****  HEADER  *****/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+nav {
+    position: relative;
+}
+
+.menuIcon:hover,
+.menuIconClose:hover {
+    cursor: pointer;
+}
+
+.menuIcon,
+.menuIconClose {
+    display: none;
+    margin-right: 1rem;
+    width: 2rem;
+    z-index: 3;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuIcon {
+    position: fixed;
+    right: 1rem;
+    top: 2.7rem;
+    transition: all 0.5s;
+}
+
+.menuIcon:hover {
+    scale: 125%;
+}
+
+header img {
+    height: min(8vw, 2.5rem);
+    width: auto;
+}
+
+nav ul {
+    display: block;
+}
+
+ul a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--Dark-grayish-blue);
+}
+
+ul a:hover {
+    color: var(--Soft-red);
+}
+
+header ul>li {
+    display: inline-block;
+    margin-left: 2rem;
+}
