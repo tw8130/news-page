@@ -4,3 +4,32 @@
     margin: 0;
     padding: 0;
 }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: var(--Off-white);
+    color: var(--Dark-grayish-blue);
+    font-size: 0.938rem;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.siteContainer {
+    max-width: 70rem;
+    margin: 0 1rem;
+}
+
+h1 {
+    font-size: min(12vw, 3.5rem);
+    color: var(--Very-dark-blue);
+    line-height: 1;
+    font-weight: 800;
+}
